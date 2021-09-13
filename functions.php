@@ -4,11 +4,15 @@ function coreplusbag_scripts()
 {
     //style
     
-    // wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/assets/plugins/plugins.css');
+    wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
+    wp_enqueue_style('fontawesome_css', get_template_directory_uri() . '/assets/css/fontawesome.min.css');
+    wp_enqueue_style('theme-style', get_template_directory_uri() . '/assets/css/theme-style.css');
    
     //script
    
-    // wp_enqueue_script('bootstrap-datepicker', get_template_directory_uri() . '/assets/plugins/bs-datepicker/js/bootstrap-datepicker.min.js');
+    wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery.min.js');
+    wp_enqueue_script('jquery-ui', get_template_directory_uri() . '/assets/js/jquery-ui.min.js');
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js');
 
     // wp_enqueue_script('main-script-js', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '1.0.0', true);
 }
