@@ -17,7 +17,7 @@ get_header();
             <p>We are all about making life easy for every Australian health provider.</p>
             <div class="center-content">
                 <div class="our-story-hero-image">
-                    <img src="images/our-story.svg"  alt="">
+                    <img src="<?php echo get_template_directory_uri(). "/images/our-story.svg" ?> "  alt="">
                 </div>
 
             </div>
@@ -55,7 +55,7 @@ get_header();
         <div class="row">
             <div class="col-lg-5 col-md-7 col-sm-12 center-content">
                 <div class="who-we-are-image">
-                    <img src="images/practitioners.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(). "/images/practitioners.svg" ?>" alt="">
                 </div>
                 
             </div>
@@ -84,7 +84,7 @@ get_header();
         <div class="row">
             <div class="col-md-6 ">
                 <div class="mv-div our-mission">
-                    <img src="/images/mission.svg" class="similar-height" alt="">
+                    <img src="<?php echo get_template_directory_uri(). "/images/mission.svg" ?>" class="similar-height" alt="">
                     <h5>Our Mission</h5>
                     <p>To enable Allied Health Practices to utilize their preferred tools to improve clinical outcomes for patients.</p>
                 </div>
@@ -92,7 +92,7 @@ get_header();
 
             <div class="col-md-6">
                 <div class="mv-div">
-                    <img class="similar-height" src="/images/vision.svg" alt="">
+                    <img class="similar-height" src="<?php echo get_template_directory_uri(). "/images/vision.svg" ?>" alt="">
                     <h5>Our Vision</h5>
                     <p>To be the Australian leader in online health patient & practice management software as a service.</p>
                 </div>
@@ -138,10 +138,10 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="our-story-video text-center">
-                <img src="images/our-story/video.svg" alt="">
+                <img src="<?php echo get_template_directory_uri(). "/images/our-story/video.svg" ?>" alt="">
             </div>
             <div class="our-brand-values text-center">
-                <a href="#">Our Brand Values &#8594;</a>
+                <a href="<?php echo home_url('/our-values') ?>">Our Brand Values &#8594;</a>
             </div>
 
         </div>

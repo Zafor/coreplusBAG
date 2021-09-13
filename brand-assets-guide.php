@@ -32,7 +32,7 @@ get_header();
           </div>
           <div class="col-md-6">
             <div class="our-values-hero-image">
-              <img src="images/asset-vactor.svg" alt="" />
+              <img src="<?php echo get_template_directory_uri()."/images/asset-vactor.svg" ?>" alt="" />
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/tone-of-voice.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/tone-of-voice.svg" ?>" alt="" />
               </div>
 
               <div>
@@ -62,7 +62,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/cp-logo.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/cp-logo.svg" ?>" alt="" />
               </div>
 
               <div>
@@ -78,7 +78,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/logo-symbology.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/logo-symbology.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Logo Symbology</h5>
@@ -93,7 +93,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/color-palettes.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/color-palettes.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Color Palettes</h5>
@@ -108,7 +108,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/typography.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/typography.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Typography</h5>
@@ -122,7 +122,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/illustration-library.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/illustration-library.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Illustration Library</h5>
@@ -136,7 +136,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/grid-system.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/grid-system.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Grid System</h5>
@@ -150,7 +150,7 @@ get_header();
           <div class="col-md-6">
             <div class="our-values-grid equal-grids">
               <div class="values-icon">
-                <img src="images/best-practices.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()."/images/best-practices.svg" ?>" alt="" />
               </div>
               <div>
                 <h5>Best Practices</h5>
@@ -164,7 +164,7 @@ get_header();
         </div>
 
         <div class="our-brand-values text-center">
-          <a href="brand-assets-guide-child.html">Brand Asset Kit &#8594;</a>
+          <a href="<?php echo home_url('/brand-assets-kit') ?>">Brand Asset Kit &#8594;</a>
         </div>
       </div>
     </section>

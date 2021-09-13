@@ -21,7 +21,7 @@ get_header();
         </div>
         <div class=" col-md-6">
             <div class="our-values-hero-image">
-                <img src="images/our-values.svg" alt="">
+                <img src="<?php echo get_template_directory_uri()."/images/our-values.svg" ?>" alt="">
             </div>
         </div>
 
@@ -35,7 +35,7 @@ get_header();
             <div class="col-md-6">
                 <div class="our-values-grid equal-grids">
                     <div class="values-icon ">
-                        <img src="images/my-practice.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri()."/images/my-practice.svg" ?>" alt="">
                     </div>
     
                     <div>
@@ -49,7 +49,7 @@ get_header();
                 <div class="our-values-grid equal-grids">
 
                     <div class="values-icon ">
-                        <img src="images/my-clients.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri()."/images/my-clients.svg" ?>" alt="">
                     </div>
     
                     <div>
@@ -62,7 +62,7 @@ get_header();
             <div class=" col-md-6 ">
                 <div class="our-values-grid equal-grids">
                     <div class="values-icon ">
-                        <img src="images/my-team.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri()."/images/my-team.svg" ?>" alt="">
                     </div>
                     <div>
                         <h5>My Team</h5>
@@ -75,7 +75,7 @@ get_header();
             <div class="col-md-6 ">
                 <div class="our-values-grid equal-grids">
                     <div class="values-icon ">
-                        <img src="images/myself.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri()."/images/myself.svg" ?>" alt="">
                     </div>
                     <div>
                         <h5>My Self</h5>
@@ -87,7 +87,7 @@ get_header();
         </div>
         
         <div class="our-brand-values text-center">
-            <a href="#">Brand Assets Guide &#8594;</a>
+            <a href="<?php echo home_url('/brand-assets-guide') ?>">Brand Assets Guide &#8594;</a>
         </div>
         
     </div>

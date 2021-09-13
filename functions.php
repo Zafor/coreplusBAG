@@ -5,7 +5,7 @@ function coreplusbag_scripts()
     //style
     
     wp_enqueue_style('bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
-    wp_enqueue_style('fontawesome_css', get_template_directory_uri() . '/assets/css/fontawesome.min.css');
+    // wp_enqueue_style('fontawesome_css', get_template_directory_uri() . '/assets/css/fontawesome.min.css');
     wp_enqueue_style('theme-style', get_template_directory_uri() . '/assets/css/theme-style.css');
    
     //script
