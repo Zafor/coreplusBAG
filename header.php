@@ -24,7 +24,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light sticky-top justify-content-between nav-section">
     <div class="logo">
-        <a href="">
+        <a href="<?php echo home_url('/') ?>">
            <img src="<?php echo get_template_directory_uri(). "/images/site-logo/logo.svg"?> " alt="">
        </a> 
     </div>
