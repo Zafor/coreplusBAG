@@ -6,14 +6,14 @@
 
 get_header();
 ?>
-
+<section class="bag-kit-header"></section>
 <section>
     <div class="container">
         <div class="row "> 
             <div class="bag-sidebar col-md-2">
                 <ul id="bag-sidemenu">
                     <li><a href="#toneofvoice">Tone Of Voice</a> </li>
-                    <li><a href="#logo"> Logo</a> 
+                    <li><a href="#bagKitLogo"> Logo</a> 
                         <ul>
                             <li><a href="#overview">Overview</a> </li>
                             <li><a href="#secondarylogosuite">Secondary Logo Suite</a> </li>
@@ -30,8 +30,8 @@ get_header();
                     <li><a href="#bestPractices">Best Practices</a> </li>
                 </ul>
             </div>
-            <div class="sidebar-content col-md-9">
-                <div class="tone-of-voice bg-spacing" id="toneofvoice">
+            <div class="sidebar-content col-md-9" id="toneofvoice">
+                <div class="tone-of-voice bg-spacing" >
                     <h1>Tone Of Voice</h1>
                     <p>Each element of the our vision is tied back into the core message of ‘Practice Happy’, to align aspects of the brand and evoke emotion. Our promise is consistent with the voice of our brand and the communication tone is key when we are building a bridge with our customers. Single-mindedness is a powerful lever in communicating a clear message to customers, which is absorbed through simplicity and repetition.</p>
                 </div>
@@ -103,11 +103,11 @@ get_header();
                     </ul>
                 </div>
 
-                <div>
+                <div id="bagKitLogo"> 
                     <hr class="border-color" >
                 </div>
                 
-                <div class="bg-spacing-top" id="logo">
+                <div class="bg-spacing-top" >
                     <h1>Logo</h1>
                     <p>The logo is a composite of an origami-styled multicolored triangular symbol and the words “core” and “plus” concatenated into one word “coreplus” with the tagline “practice happy”, depicted with the tagline “practice happy”, the words “core” and “practice happy” are in light grey and the word “plus” is in dark grey.</p>
                 </div>
@@ -196,8 +196,8 @@ get_header();
                     <img src="/images/clear-space.svg" alt="">
                 </div>
                 </div>
-
-             <div class="bg-spacing" id="logomisuse">
+            <div id="logomisuse"></div>
+             <div class="bg-spacing" >
                 <h3>Logo Misuse</h3>
                 <div class="bg-spacing-top-half">
                     <p>The Coreplus logo must not be used in any of the ways shown at below. It must not be stretched, squashed, placed at an angle or distorted in any way.</p>
@@ -224,11 +224,11 @@ get_header();
                 </div>
                 </div>
 
-             <div>
+             <div id="colorpalette">
                 <hr class="border-color">
              </div>
 
-             <div class="bg-spacing-top" id="colorpalette">
+             <div class="bg-spacing-top" >
                 <h1>
                     Color Palette
                 </h1>
@@ -442,11 +442,11 @@ get_header();
                     </div>
                 </div>
 
-                <div class="bg-spacing-top">
+                <div class="bg-spacing-top" id="typography">
                     <hr class="border-color">
                 </div>
 
-                <div class="bg-spacing-top" id="typography">
+                <div class="bg-spacing-top" >
                     <h1>
                         Typography
                     </h1>

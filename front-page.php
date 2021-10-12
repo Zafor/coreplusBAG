@@ -13,8 +13,8 @@ get_header();
 <div class="container">
     <div class="row ">
         <div class="our-story-content center-content text-center">
-            <h1 class="font-size-56"> Welcome to coreplus</h1>
-            <p>We are all about making life easy for every Australian health provider.</p>
+            <h1 class="font-size-56"> We are coreplus</h1>
+            <p>We empower the allied health community provide digital first healthcare services <br class="our-story"> using connected care networks & digital tools to their clients.</p>
             <div class="center-content">
                 <div class="our-story-hero-image">
                     <img src="<?php echo get_template_directory_uri(). "/images/our-story.svg" ?> "  alt="">
@@ -86,7 +86,7 @@ get_header();
                 <div class="mv-div our-mission">
                     <img src="<?php echo get_template_directory_uri(). "/images/mission.svg" ?>" class="similar-height" alt="">
                     <h5>Our Mission</h5>
-                    <p>To enable Allied Health Practices to utilize their preferred tools to improve clinical outcomes for patients.</p>
+                    <p>To connect, help & grow Allied Healthcare professionals with digital first healthcare service experiences for their clients.</p>
                 </div>
             </div>
 
@@ -94,7 +94,7 @@ get_header();
                 <div class="mv-div">
                     <img class="similar-height" src="<?php echo get_template_directory_uri(). "/images/vision.svg" ?>" alt="">
                     <h5>Our Vision</h5>
-                    <p>To be the Australian leader in online health patient & practice management software as a service.</p>
+                    <p>A world of digital first healthcare service experiences for all people.</p>
                 </div>
             </div>
         </div>

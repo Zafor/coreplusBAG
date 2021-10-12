@@ -45,10 +45,10 @@
   margin: auto;
 }
 
-.logo {
+.cbag-logo {
   margin-left: 50px;
-  margin-top: 17px;
-  margin-bottom: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -58,20 +58,23 @@
   }
 }
 
-.menu {
+.cbag-menu {
   display: flex;
   margin-right: 50px;
 }
 
-.menu a {
+.cbag-menu a {
   text-decoration: none;
   color: #7f7f7f;
   margin-left: 50px;
   padding-top: 10px;
 }
+.cbag-menu a.current-page {
+  color: #333 !important;
+}
 
 /* @media screen and (max-width: 1023px) {
-      .menu {
+      .cbag-menu {
         display: none;
       }
     } */
@@ -98,7 +101,7 @@
 }
 h1 {
   color: #f98731;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 56px;
   /* margin: auto; */
 }
@@ -126,12 +129,15 @@ h1 {
     margin: auto;
   }
 }
-
-.footer-terms {
-  color: #676767;
+.cbag-footer-tc {
   padding-top: 15px;
-  /* text-align: center; */
 }
+
+a.footer-terms {
+  color: #676767;
+  text-decoration: none;
+}
+
 .footer-social {
   padding-top: 15px;
   display: flex;
@@ -166,6 +172,12 @@ h1 {
 }
 .our-story-hero-image img {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  br.our-story {
+    display: none;
+  }
 }
 
 .our-story-one {
@@ -278,7 +290,7 @@ i {
 /* Our Values Page */
 
 .our-values-hero {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
 }
 
@@ -350,6 +362,9 @@ i {
   margin-top: 100px;
 }
 
+#logomisuse {
+  margin-top: 100px;
+}
 .logo-misuse-div {
   max-width: 800px;
 }
@@ -462,6 +477,20 @@ i {
 }
 #bag-sidemenu a:active {
   color: #f98731;
+}
+
+/* .bag-kit-header {
+  position: relative;
+} */
+
+.bag-sidebar {
+  position: relative;
+  /* top: 0; */
+}
+
+#bag-sidemenu {
+  position: sticky;
+  top: 0;
 }
 
 .bag-sidebar ul,

@@ -12,7 +12,7 @@ get_header();
     <div class="row our-values-hero">
         <div class="col-md-6 our-values-content">
             <div>
-                <h1>We Are coreplus</h1>
+                <h1>How We Get Thing Done</h1>
                 <p>Our success to date is based on having great people who are passionate, focused, hardworking, innovative and fun. We band together to support each other, our customers and most importantly help each other grow. </p>
             </div>
                 <div class="download-brandbook">
@@ -40,7 +40,7 @@ get_header();
     
                     <div>
                         <h5>My Practice</h5>
-                        <p>Our platform represents a solid foundation for your healthcare business to connect safely, seamlessly and privately with referral programs and remain agile and adaptive to an evolving healthcare system and consumers needsy.</p>
+                        <p>Our platform represents a solid foundation for your healthcare business to connect safely, seamlessly and privately with referral programs and remain agile and adaptive to an evolving healthcare system and consumers needs.</p>
                     </div>
                 </div>
             </div>
