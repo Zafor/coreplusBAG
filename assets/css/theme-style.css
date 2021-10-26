@@ -23,6 +23,10 @@
   scroll-behavior: smooth;
 }
 
+a#toneofvoice.active {
+  color: #f98731;
+}
+
 /* .row-flex {
       display: flex;
       flex-wrap: wrap;

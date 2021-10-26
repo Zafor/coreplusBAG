@@ -116,14 +116,14 @@ get_header();
                 </div>
 
                 <div class="bg-spacing">
-                    <img src="/images/logo-symbol.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(). '/images/logo-symbol.svg' ?> " alt="">
                 </div>
 
                 <div class="bg-spacing" id="overview">
                     <h3 class="header-color">Primary Logo Suite</h3>
                     <div class="bg-spacing-top-half">
                         <div class="primary-logo-suite">
-                            <img src="/images/primary-logo-suite.svg" alt="">
+                            <img src="<?php echo  get_template_directory_uri().'/images/primary-logo-suite.svg' ?> " alt="">
                         </div>
 
                     </div>
@@ -134,10 +134,10 @@ get_header();
                 <div class="bg-spacing-top-half container">
                     <div class="row">
                         <div class="col-md-4 secondary-logo">
-                            <img src="/images/secondary-logo-1.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(). '/images/secondary-logo-1.svg' ?> " alt="">
                         </div>
                         <div class="col-md-4 secondary-logo">
-                            <img src="/images/secondary-logo-2.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri().'/images/secondary-logo-2.svg'?>" alt="">
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ get_header();
                     <p>The coreplus logo can be used with or without the strapline, ‘practice happy’. The lock-up with strapline is the preferred logo however the strapline can be dropped where it becomes difficult to reproduce, ie. at small sizes or on alternative print applications.</p>
                 </div>
                 <div class="bg-spacing-top-half">
-                  <img src="/images/alternate-suite.svg" alt="">
+                  <img src="<?php echo get_template_directory_uri().'/images/alternate-suite.svg'?>" alt="">
                 </div>
              </div>
 
@@ -165,7 +165,7 @@ get_header();
                         The origami pyramid is comprised of eight (8) equilateral triangles of diverse colors, four (4) of which are placed to form a larger equilateral triangle, three (3) of which connect at the points of the larger triangle and one (1) which is placed at the bottom right of the larger triangle, depicting an equilateral triangle folded toward the viewer or positioned on a different plane to the other triangles.</p>
                 </div>
                 <div class="bg-spacing-top-half">
-                    <img src="/images/logo-flow-1.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/logo-flow-1.svg'?>" alt="">
                 </div>
                 <div class="bg-spacing-top-half">
                     <p>It is designed to communicate that coreplus is a patient/ practice management solution that extends functions and workflow into four key areas i.e. cashflow optimisation, online add-ons, referrals and eHealth by using complementary, attractive yet different colours.
@@ -184,7 +184,7 @@ get_header();
                    <p>The minimum size the Coreplus logo may be reproduced is 45mm.</p>
                 </div>
                 <div class="bg-spacing-top-half">
-                   <img src="/images/minimum-size.svg" alt="">
+                   <img src="<?php echo get_template_directory_uri().'/images/minimum-size.svg'?>" alt="">
                 </div>
                 <div class="bg-spacing-top-half">
                    <h5>Clear space</h5>
@@ -193,7 +193,7 @@ get_header();
                     <p>To ensure the Coreplus logo is not compromised by other graphic devices, use the minimum clear space guidelines. Use the height of a full triangle (marked ‘X’) as a proportional measure. No other elements should breach this area.</p>
                 </div>
                 <div class="bg-spacing-top-half">
-                    <img src="/images/clear-space.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/clear-space.svg'?>" alt="">
                 </div>
                 </div>
             <div id="logomisuse"></div>
@@ -206,18 +206,18 @@ get_header();
                     <div class="logo-misuse-div text-center">
                         <div class="row">
                             <div class="col">
-                                <img src="/images/logo-misuse-1.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/logo-misuse-1.svg'?>" alt="">
                             </div>
                             <div class="col">
-                                <img src="/images/logo-misuse-2.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/logo-misuse-2.svg'?>" alt="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <img src="/images/logo-misuse-3.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/logo-misuse-3.svg'?>" alt="">
                             </div>
                             <div class="col">
-                                <img src="/images/logo-misuse-4.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/logo-misuse-4.svg'?>" alt="">
                             </div>
                         </div>
                     </div>
@@ -284,19 +284,19 @@ get_header();
                     <div class="row">
 
                     <div class="col">
-                        <img src="/images/practice-management-1-2.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/practice-management-1-2.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/practice-management-3.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/practice-management-3.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/practice-management-4.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/practice-management-4.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/practice-management-5.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/practice-management-5.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/practice-management-6.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/practice-management-6.svg'?>" alt="">
                     </div>
 
                     </div>
@@ -313,19 +313,19 @@ get_header();
                     <div class="row">
 
                     <div class="col">
-                        <img src="/images/cash-flow/cash-flow-1.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/cash-flow/cash-flow-1.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/cash-flow/cash-flow-2.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/cash-flow/cash-flow-2.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/cash-flow/cash-flow-3.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/cash-flow/cash-flow-3.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/cash-flow/cash-flow-4.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/cash-flow/cash-flow-4.svg'?>" alt="">
                     </div>
                     <div class="col bg-spacing-top-30">
-                        <img src="/images/cash-flow/cash-flow-5.svg" alt="">
+                        <img src="<?php echo get_template_directory_uri().'/images/cash-flow/cash-flow-5.svg'?>" alt="">
                     </div>
                  
                     </div>
@@ -342,19 +342,19 @@ get_header();
                     <div class="practice-management">
                         <div class="row">
                             <div class="col">
-                                <img src="/images/referrals/referrals-1.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/referrals/referrals-1.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/referrals/referrals-2.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/referrals/referrals-2.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/referrals/referrals-3.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/referrals/referrals-3.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/referrals/referrals-4.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/referrals/referrals-4.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/referrals/referrals-5.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/referrals/referrals-5.svg'?>" alt="">
                             </div>
                         </div>
                     </div>   
@@ -367,19 +367,19 @@ get_header();
                     <div class="practice-management">
                         <div class="row">
                             <div class="col">
-                                <img src="/images/online-addons/online-addons-1.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/online-addons/online-addons-1.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/online-addons/online-addons-2.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/online-addons/online-addons-2.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/online-addons/online-addons-3.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/online-addons/online-addons-3.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/online-addons/online-addons-4.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/online-addons/online-addons-4.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/online-addons/online-addons-5.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/online-addons/online-addons-5.svg'?>" alt="">
                             </div>
                            
                         </div>
@@ -393,22 +393,21 @@ get_header();
                     <div class="practice-management">
                         <div class="row">
                             <div class="col">
-                                <img src="/images/eHealth/eHealth-1.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/eHealth/eHealth-1.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/eHealth/eHealth-2.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/eHealth/eHealth-2.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/eHealth/eHealth-3.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/eHealth/eHealth-3.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/eHealth/eHealth-4.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/eHealth/eHealth-4.svg'?>" alt="">
                             </div>
                             <div class="col bg-spacing-top-30">
-                                <img src="/images/eHealth/eHealth-5.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/eHealth/eHealth-5.svg'?>" alt="">
                             </div>
                             
-                           
                         </div>
                     </div>   
                 </div>
@@ -680,7 +679,7 @@ get_header();
                                     <h5>Digital Health</h5>
                                     <div class="illustration-element">
 
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/digital-health.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/digital-health.svg'?>" alt="Digital Health">
                                     </div>
                                 </div>
                             </div>
@@ -689,7 +688,7 @@ get_header();
                                     <h5>Add-ons</h5>
                                     <div class="illustration-element">
 
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/add-ons.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/add-ons.svg'?>" alt="Digital Health">
                                     </div>
                                 </div>
                             </div>
@@ -698,7 +697,7 @@ get_header();
                                     <h5>Practice Life</h5>
                                     <div class="illustration-element">
 
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/practice-life.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/practice-life.svg'?>" alt="Digital Health">
                                     </div>
                                 </div>
                             </div>
@@ -707,7 +706,7 @@ get_header();
                                     <h5>Advisers</h5>
                                     <div class="illustration-element">
 
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/practice-life.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/practice-life.svg'?>" alt="Digital Health">
                                     </div>
                                 </div>
                             </div>
@@ -715,7 +714,7 @@ get_header();
                                 <div class="illustration-style-div">
                                     <h5>Add-ons</h5>
                                     <div class="illustration-element">
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/add-ons-2.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/add-ons-2.svg'?>" alt="Digital Health">
 
                                     </div>
                                 </div>
@@ -724,7 +723,7 @@ get_header();
                                 <div class="illustration-style-div"> 
                                     <h5>Practice Life</h5>
                                     <div class="illustration-element">
-                                        <img class="bg-spacing-top-30" src="/images/illustration-style/practice-life-2.svg" alt="Digital Health">
+                                        <img class="bg-spacing-top-30" src="<?php echo get_template_directory_uri().'/images/illustration-style/practice-life-2.svg'?>" alt="Digital Health">
                                     </div>
                                     
                                 </div>
@@ -746,16 +745,16 @@ get_header();
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="/images/grid-system/grid-system.svg" width="100%" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/grid-system/grid-system.svg'?>" width="100%" alt="">
                             </div>
                             <div class="col-md-2 figma-ps-xd ">
-                                <img src="/images/grid-system/figma.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/grid-system/figma.svg'?>" alt="">
                             </div>
                             <div class="col figma-ps-xd ">
-                                <img src="/images/grid-system/photoshop.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/grid-system/photoshop.svg'?>" alt="">
                             </div>
                             <div class="col figma-ps-xd ">
-                                <img src="/images/grid-system/xd.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri().'/images/grid-system/xd.svg'?>" alt="">
                             </div>
                         </div>
                     </div>
@@ -788,7 +787,7 @@ get_header();
                 </div>
 
                 <div class="bg-spacing-top-half facebook-creative">
-                    <img src="/images/best-practices/facebook-grid.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/best-practices/facebook-grid.svg'?>" alt="">
                 </div>
 
                 <div class="bg-spacing-top-half">
@@ -825,7 +824,7 @@ get_header();
                 </div>
 
                 <div class="bg-spacing-top-half linkedin-creative">
-                    <img src="/images/best-practices/linkedin-creative.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/best-practices/linkedin-creative.svg'?>" alt="">
                 </div>
 
                 <div class="bg-spacing-top-half">
@@ -862,7 +861,7 @@ get_header();
                 </div>
 
                 <div class="bg-spacing-top-half instagram-creative">
-                    <img src="/images/best-practices/instagram-creative.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/best-practices/instagram-creative.svg'?>" alt="">
                 </div>
 
                 <div class="bg-spacing-top-half">
@@ -899,7 +898,7 @@ get_header();
                 </div>
 
                 <div class="bg-spacing-top-half twitter-creative">
-                    <img src="/images/best-practices/twitter-creative.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/best-practices/twitter-creative.svg'?>" alt="">
                 </div>
 
                 <div class="bg-spacing-top-half">
@@ -935,7 +934,7 @@ get_header();
                     <!-- <h5>Blogs Layout</h5> -->
                 </div>
                 <div class="bg-spacing-top-half blog-layout">
-                    <img src="/images/blog-layout/blog-layout.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri().'/images/blog-layout/blog-layout.svg'?>" alt="">
                 </div>
 
                 <div class="bg-spacing-top"></div>
