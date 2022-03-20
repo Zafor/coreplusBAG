@@ -779,7 +779,7 @@ get_header();
                 </div>
 
                 <div class="bg-spacing-top-half">
-                    <h3 class="header-color">Social Media (Facebook, LinkedIn, Instragram)</h3>
+                    <h3 class="header-color">Social Media (Facebook, LinkedIn, Instagram)</h3>
                 </div>
 
                 <div class="bg-spacing-top-30">
